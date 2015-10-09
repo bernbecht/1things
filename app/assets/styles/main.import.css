@@ -81,7 +81,8 @@ html, body {
   animation: fadeInUp 1s 1s forwards; }
 
 .today-message {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 5vw;
+  font-weight: 200;
   opacity: 0;
-  animation: fadeInUp 0.5s 2s forwards; }
+  animation: fadeInUp 0.5s 2s forwards;
+  text-align: center; }
