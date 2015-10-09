@@ -3,6 +3,7 @@
     font-weight: bold;
     text-align: center;
     opacity: 0;
+    -webkit-animation: fadeInUp 1s 1s forwards;
     animation: fadeInUp 1s 1s forwards;
 }
 
@@ -10,6 +11,7 @@
     font-size: 5vw;
     font-weight: 200;
     opacity: 0;
+    -webkit-animation: fadeInUp 0.5s 2s forwards;
     animation: fadeInUp 0.5s 2s forwards;
     text-align: center;
 }
