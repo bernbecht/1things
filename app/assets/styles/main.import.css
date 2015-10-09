@@ -10,39 +10,13 @@ html, body {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  animation: centering 0.5s 3.5s forwards; }
-
-.main-title {
-  font-size: 76px;
-  font-weight: bold; }
-
-.sub-title {
-  font-size: 48px;
-  font-weight: 200;
-  animation: pulse 1s 2s forwards; }
-
-.word-change {
-  animation: pulse 1s 2.5s forwards; }
-
-@keyframes pulse {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-
-@keyframes centering {
-  0% {
-    transform: translate(-50%, -50%); }
-  100% {
-    transform: translate(-50%, -40%); } }
+  transform: translate(-50%, -60%); }
 
 html, body {
   height: 100%; }
 
 .bg_heart {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -100,6 +74,14 @@ html, body {
   margin: 0 auto; }
 
 .today-date {
-  font-size: 200px;
+  font-size: 30vw;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  opacity: 0;
+  animation: fadeInUp 1s 1s forwards; }
+
+.today-message {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0;
+  animation: fadeInUp 0.5s 2s forwards; }

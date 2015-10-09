@@ -1,0 +1,15 @@
+.today-date {
+    font-size:  30vw;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s 1s forwards;
+}
+
+.today-message {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeInUp 0.5s 2s forwards;
+}
+
