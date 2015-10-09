@@ -19,19 +19,27 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div  class="center">
-                <div class="main-title">
-                    <span>The</span><span> #1</span><span class="word-change"> things</span>
-                </div>
-            <div class="sub-title">
-                <span>are the best things</span>
-            </div>
+        <div class="bg_heart">
+          <div class="wrapper">
+              <div id="today-date"
+                  class="today-date">
+                  {{todayDate | date : 'dd/MM'}}
+              </div>
+              <div id="today-message"
+                  class="today-message">
+                  {{todayMessage}}
+              </div>
+              <div id="today-image"
+                  class="today-image">
+                  <img src="http://cdn.gifbay.com/2014/05/like_one_of_your_french_spideys-132812.gif" alt="Made with care" />
+              </div>
+          </div>
         </div>
-
  </body>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-route/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="app.js"></script>
     <script src="home/home.controller.js"></script>
+    <script src="home/home.animation.js"></script>
 </html>
