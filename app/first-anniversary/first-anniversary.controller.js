@@ -3,6 +3,6 @@
         FirstAnniversaryController.$inject = ["$scope"];
         function FirstAnniversaryController($scope) {
             $scope.todayDate = new Date();
-            $scope.todayMessage = "The first things are the best things";
+            $scope.todayMessage = "The first anniversary with the last girlfriend. I love you, Marina!";
         }
 })();
